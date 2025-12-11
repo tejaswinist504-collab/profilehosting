@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    background-color: cadetblue;
+
+}
+.Profile-Card{
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+.Profile-Card img{
+    border-radius: 500px;
+    width: 900px;
+    height: 900px;
+
+}
+.Profile-Card:hover{
+    background-color: rgb(183, 152, 213);
+    box-shadow: 0 15px 35px blue;
+    transform: translate(20px);
+}
+.Profile-Card button{
+
+    background-color: orangered;
+    box-shadow:0 5px 10px blue;
+    
+}
